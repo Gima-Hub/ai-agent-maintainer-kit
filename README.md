@@ -41,9 +41,15 @@ This kit is intended for:
 
 This project is early-stage and actively maintained.
 
-The first goal is to publish a practical v0.1.0 template set for safe AI-worker usage in small open-source repositories.
+The first usable template set is being prepared as `v0.1.0`.
 
-## Planned template areas
+See:
+
+- `CHANGELOG.md`
+- `RELEASE_NOTES.md`
+- `ROADMAP.md`
+
+## Included template areas
 
 - Worker rules
 - Active task tracking
@@ -54,6 +60,25 @@ The first goal is to publish a practical v0.1.0 template set for safe AI-worker 
 - Report template
 - Review template
 - Example workflows
+
+## Repository layout
+
+```text
+templates/                 Reusable policy and workflow templates
+docs/                      Explanatory maintainer documentation
+examples/                  Practical example workflows
+.github/ISSUE_TEMPLATE/    Issue templates for maintenance and improvement
+```
+
+## Start here
+
+Recommended first reading order:
+
+1. `docs/worker-ai-model.md`
+2. `docs/safety-boundaries.md`
+3. `docs/maintainer-workflow.md`
+4. `examples/read_only_inventory/README.md`
+5. `examples/docs_only_task/README.md`
 
 ## Safety model
 
@@ -67,8 +92,6 @@ The default safety model is conservative:
 6. Work stops after the report until a human reviews it.
 
 ## Quick start
-
-This repository is still being initialized. The intended usage will be:
 
 1. Copy the templates into your repository.
 2. Fill in your project-specific allowed scope and blocked scope.
