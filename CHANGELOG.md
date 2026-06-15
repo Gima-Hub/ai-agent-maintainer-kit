@@ -6,14 +6,19 @@ This project uses simple release notes while it is in early development.
 
 ## Unreleased
 
+### Added
+
+- Codex usage notes under `docs/tool-notes/codex.md`.
+- Antigravity CLI usage notes under `docs/tool-notes/antigravity-cli.md`.
+- Small bugfix workflow example under `examples/small_bugfix_flow/README.md`.
+
 ### Planned
 
-- Add tool-specific usage notes for Codex.
-- Add tool-specific usage notes for Antigravity CLI.
-- Add a small bugfix workflow example.
-- Review templates for consistency before the first tagged release.
+- Add a quick-start maintainer checklist.
+- Add a task risk level comparison table.
+- Prepare a future maintenance release after the next small documentation pass.
 
-## v0.1.0 - Draft
+## v0.1.0
 
 Initial template kit for human-supervised AI coding agent workflows.
 
