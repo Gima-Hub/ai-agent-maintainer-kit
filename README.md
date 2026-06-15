@@ -41,7 +41,9 @@ This kit is intended for:
 
 This project is early-stage and actively maintained.
 
-The first usable template set is being prepared as `v0.1.0`.
+The first usable template set has been released as `v0.1.0`.
+
+Post-release follow-up work has added tool-specific notes and a small bugfix workflow example.
 
 See:
 
@@ -60,12 +62,14 @@ See:
 - Report template
 - Review template
 - Example workflows
+- Tool-specific usage notes
 
 ## Repository layout
 
 ```text
 templates/                 Reusable policy and workflow templates
 docs/                      Explanatory maintainer documentation
+docs/tool-notes/           Tool-specific usage notes
 examples/                  Practical example workflows
 .github/ISSUE_TEMPLATE/    Issue templates for maintenance and improvement
 ```
@@ -79,6 +83,12 @@ Recommended first reading order:
 3. `docs/maintainer-workflow.md`
 4. `examples/read_only_inventory/README.md`
 5. `examples/docs_only_task/README.md`
+6. `examples/small_bugfix_flow/README.md`
+
+Tool-specific notes:
+
+- `docs/tool-notes/codex.md`
+- `docs/tool-notes/antigravity-cli.md`
 
 ## Safety model
 
@@ -96,8 +106,9 @@ The default safety model is conservative:
 1. Copy the templates into your repository.
 2. Fill in your project-specific allowed scope and blocked scope.
 3. Start with read-only or documentation-only tasks.
-4. Require human approval before file edits, Git staging, commits, or pushes.
-5. Keep reports and reviews in version control.
+4. Move to small bugfix tasks only after successful lower-risk tasks.
+5. Require human approval before file edits, Git staging, commits, or pushes.
+6. Keep reports and reviews in version control.
 
 ## Relationship to AIriProject
 
